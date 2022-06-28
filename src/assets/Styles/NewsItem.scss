@@ -1,0 +1,29 @@
+.itemWrap {
+  width: 650px;
+  padding: 10px;
+  position: absolute;
+  left: calc(50% - 325px);
+  top: 30%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgb(82, 82, 82);
+
+  .itemDate,
+  .itemContent {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    width: 80px;
+    height: 40px;
+    background-color: rgb(35, 35, 208);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:active {
+      background-color: rgb(11, 11, 185);
+    }
+  }
+}
