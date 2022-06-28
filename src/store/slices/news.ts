@@ -17,7 +17,7 @@ export const fetchNews = createAsyncThunk<News, undefined, {rejectValue: string}
     }
 );
 
-// Не смог реализовать удаление с сервера по причине того, что api не поддерживает эту возможность при бесплатном приобретенит.
+// Не смог реализовать удаление с сервера по причине того, что api не поддерживает эту возможность при бесплатном приобретении.
 // Поэтому сделал локальное удаление
 
 export const deleteItem = createAsyncThunk<string, string, { rejectValue: string }>(
